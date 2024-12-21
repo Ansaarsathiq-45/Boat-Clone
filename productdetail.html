@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <h1>Boat</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.html#products">Products</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Product Detail Section -->
+  <section id="product-detail">
+    <div class="product-container">
+      <!-- Product Gallery -->
+      <div class="product-gallery">
+        <div class="thumbnails">
+          <img src="./images/product 1.png" alt="Thumbnail 1" onclick="updateMainImage('./images/product 1.png')">
+          <img src="./images/Thumb1.png" alt="Thumbnail 1" onclick="updateMainImage('./images/Thumb1.png')">
+          <img src="./images/Thumb2.png" alt="Thumbnail 2" onclick="updateMainImage('./images/Thumb2.png')">
+          <img src="./images/Thumb3.png" alt="Thumbnail 3" onclick="updateMainImage('./images/Thumb3.png')">
+        </div>
+      </div>
+
+      <!-- Main Image -->
+      <div class="main-image">
+        <img id="main-product-image" src="./images/product 1.png" alt="Main Product Image">
+      </div>
+
+      <!-- Product Information -->
+      <div class="product-info">
+        <h2>boAt Airpodes 161</h2>
+        <p class="product-description">
+          Experience crystal-clear sound with Boat Headphone Model 1. Featuring noise cancellation, deep bass, and long battery life for an immersive audio experience.
+        </p>
+        <p class="product-price">Price: ₹999</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="ads">
+    <img src="./images/service.png" alt="Ad for Boat Headphones">
+  </section>
+
+  <section id="ads">
+    <h2>QUICK PRODUCT HIGHLIGHT</h2>
+    <img src="./images/QPH.png" alt="Ad for Boat Headphones">
+  </section>
+
+
+  
+  <section class="product-specification-wrapper">
+    <div class="product-specification">
+      <h2>Product Specifications</h2>
+      <ul>
+        <li><strong>Brand:</strong> boAt</li>
+        <li><strong>Model:</strong> Airdopes 131</li>
+        <li><strong>Bluetooth Version:</strong> 5.0</li>
+        <li><strong>Battery Life:</strong> 15 hours</li>
+        <li><strong>Charging Time:</strong> 1.5 hours</li>
+        <li><strong>Water Resistance:</strong> IPX4</li>
+        <li><strong>Frequency Response:</strong> 20Hz – 20KHz</li>
+        <li><strong>Drivers:</strong> 13mm</li>
+        <li><strong>Microphone:</strong> Yes, Built-in</li>
+        <li><strong>Compatibility:</strong> Android & iOS</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="ads">
+    <img src="./images/User manual.png" alt="Ad for Boat Headphones">
+  </section>
+
+  <section id="products">
+    <h2>Join the Tribe</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <video class="productVideo" autoplay muted>
+          <source src="./Video/Vid-1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="controls">
+          <button class="muteButton">Unmute</button>
+        </div>
+      </div>
+  
+      <div class="product-card">
+        <video class="productVideo" autoplay muted>
+          <source src="./Video/Vid-2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="controls">
+          <button class="muteButton">Unmute</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <video class="productVideo" autoplay muted>
+          <source src="./Video/vid-3.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="controls">
+          <button class="muteButton">Unmute</button>
+        </div>
+      </div>
+
+    
+
+      <div class="product-card">
+        <video class="productVideo" autoplay muted>
+          <source src="./Video/vid-4.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="controls">
+          <button class="muteButton">Unmute</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <video class="productVideo" autoplay muted>
+          <source src="./Video/Vid-5.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="controls">
+          <button class="muteButton">Unmute</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="./images/logo.jpg">
+        <h2>Boat</h2>
+      </div>
+      <div class="footer-social">
+        <h2>Social Connect</h2>
+        <a href="https://www.facebook.com/boat.lifestyle" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/boat.nirvana/" target="_blank">Instagram</a>
+        <a href="https://x.com/RockWithboAt" target="_blank">Twitter</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Boat Headphones. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

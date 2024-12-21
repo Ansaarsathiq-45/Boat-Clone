@@ -1,0 +1,376 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Vertically center items */
+    padding: 1rem 2rem; /* Add padding for spacing */
+    background-color: #000; /* Background color for navbar */
+    color: #fff; /* Text color */
+  }
+  
+  .navbar .logo h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: 600; /* Bold font */
+    color: #fff; /* Logo color */
+  }
+  
+  .navbar nav {
+    display: flex; /* Flexbox for links */
+    gap: 1.5rem; /* Spacing between links */
+  }
+  
+  .navbar nav a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Link color */
+    font-size: 1rem; /* Adjust font size */
+    font-weight: 500; /* Medium font weight */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .navbar nav a:hover {
+    color: #f05454; /* Change color on hover */
+  }
+/* Ads Section */
+/* Ads Section */
+/* Ads Section */
+#ads {
+    margin: 0; /* Remove default margin */
+    padding: 2rem 0; /* Add vertical padding for spacing */
+    text-align: center; /* Center content */
+    background-color: #f8f9fa; /* Optional background color for visibility */
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  #ads h2 {
+    font-size: 2rem; /* Increased heading size */
+    font-weight: bold;
+    margin-bottom: 1.5rem; /* Spacing below the heading */
+  }
+  
+  #ads img {
+    width: 100%; /* Image takes full width of the section */
+    max-width: 1200px; /* Limit maximum size */
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    display: block; /* Center image inside the section */
+    margin: auto; /* Center image horizontally */
+  }
+  /* Sale On Live Section */
+#sale-on-live {
+    text-align: center;
+    background-color: #ffffff; /* Vibrant background color for the sale section */
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  #sale-on-live h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  #sale-on-live p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #sale-on-live button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0000000e;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  #sale-on-live button:hover {
+    background-color: #e55a4d;
+    color: #fff;
+  }
+  /* Products Section */
+#products {
+    margin: 2rem 0;
+    padding: 2rem;
+    text-align: left;
+  }
+  
+  #products h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 250px; /* Maximum card width */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  .product-card video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-card p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .product-card button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-card button:hover {
+    background-color: #e55a4d;
+  }
+
+    /* Mute button*/
+  .controls {
+    margin-top: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  /*Footer */
+  /* Footer Section */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.footer-logo h2 {
+  font-size: 2rem;
+  color: #ff6f61;
+  width: 10px;
+  height: 10px;
+}
+
+.footer-links,
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #ff6f61;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+}
+
+.footer-bottom p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+/* Product -Detail */
+/* Product -Detail */
+/* Product Detail Section */
+#product-detail {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.product-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.product-gallery {
+  display: flex;
+  flex-direction: column; /* Stack thumbnails vertically */
+  gap: 1rem;
+  flex: 0.4; /* Flex for gallery container */
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.thumbnails img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.thumbnails img:hover {
+  border-color: #ff6f61;
+  transform: scale(1.05);
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.6; /* Main image will take more space */
+}
+
+.main-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Information */
+.product-info {
+  flex: 1;
+  max-width: 50%;
+}
+
+.product-info h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.product-info .product-description {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.product-info .product-price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ff6f61;
+  margin-bottom: 1rem;
+}
+
+.add-to-cart {
+  padding: 0.8rem 1.5rem;
+  background-color: #ff6f61;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #e55a4d;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+
+}
+ 
+/* Full width background for the wrapper */
+./* Full width background for the wrapper */
+.product-specification-wrapper {
+  background-color: #ececec;  /* Sets the background color for the full page */
+  padding: 20px 0;  /* Adds vertical padding */
+  width: 100%; /* Full width of the viewport */
+  display: flex;
+  justify-content: flex-start; /* Align content to the left */
+  padding-left: 20px; /* Optional: Adds some space on the left */
+}
+
+/* Content container */
+.product-specification {
+  width: 50%; /* Sets the width of the narrow box (adjust as needed) */
+  max-width: 600px; /* Ensures the box doesn't grow too wide */
+  box-sizing: border-box;
+  text-align: left; /* Left-aligns text inside the box */
+}
+
+.product-specification h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.product-specification ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-specification ul li {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.product-specification ul li strong {
+  font-weight: 600;
+  color: #555;
+}
